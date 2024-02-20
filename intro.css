@@ -1,0 +1,53 @@
+.intro{
+    height: 520px;
+    margin: 20px 140px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.imagemlobo{
+    width: 360px;
+    max-width: 100%;
+    grid-column: 1/2;
+}
+
+
+.introtexto{
+    grid-column: 2/3;
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+
+.introtexto1{
+    display: inline-block;
+    position: relative;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 4rem;
+    text-wrap: wrap;
+    max-width: 100%;
+    grid-row: 1/4;
+    grid-row: center start;
+    inline-size: 500px;
+    overflow-wrap: break-word;
+    z-index: 20;
+}
+
+.introtexto2{
+    display: block;
+    place-self: top start;
+    grid-row: 4/5;
+    color: rgb(82, 82, 82);
+}
+
+.praia{
+    max-width: 20px;
+}
+
+.tracos{
+    position: absolute;
+    left: 48%;
+    z-index: 0;
+    
+}
+
