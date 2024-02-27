@@ -1,12 +1,13 @@
 .xp{
     display: grid;
     grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6%;
-    grid-template-rows: 30% 23.3% 23.3% 23.4%;
+    grid-template-rows: auto auto auto auto;
+    /**grid-template-rows: 30% 23.3% 23.3% 23.4%;**/
     margin: 100px 140px 140px 140px;
-    height: 622px;
+    /**height: 622px;**/
 }
 
-.tituloxp{
+.introxp{
     padding-top: 0px;
     font-weight: 600;
     font-size: 144px;
@@ -17,14 +18,76 @@
     grid-row: 1/-1;
 }
 
-.textoxp{
+.textxp{
     position: relative;
     color: rgb(82, 82, 82);
     grid-column: 4/6;
     grid-row: 1/1;
-    top: 28px;
+    margin-top: 28px;
+    margin-bottom: 60px;
+    font-size: 24px;
 }
 
 .strongxp{
     color: #000
+}
+
+.experiences{
+    grid-column: 4/7;
+    grid-row: 2/2;
+    padding: 20px;
+    place-self: center start;
+    background-color: #f4f4f4;
+    border-radius: 6px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+
+.companynamexp, .positionxp{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.companynamexp{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding-bottom: 10px;
+}
+
+.discriptionxp{
+    font-size: 14px;
+    padding-right: 75px;
+    padding-bottom: 10px;
+    color: rgb(82, 82, 82)
+}
+
+.positionxp{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    place-self: center start;
+    margin-left: 40px;
+    padding-bottom: 10px;
+}
+
+.skillsxp{
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.xpul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    gap: 10px;
+    place-content: start;
+    margin: 0px;
+}
+
+.xpli{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 400;
 }
