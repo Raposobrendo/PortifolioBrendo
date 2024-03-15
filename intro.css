@@ -1,6 +1,5 @@
 .intro{
     height: 520px;
-    max-width: 1080px;
     margin: 20px 140px;
     display: grid;
     grid-template-columns: 16.6% 16.6% 10.13% 19% 19% 19%;
